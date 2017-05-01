@@ -1,0 +1,23 @@
+
+<div class="row">
+    <div class="col-md-offset-2 col-md-8 text-center">
+        <hi>배고프냐?</hi><br>
+    </div>
+</div>
+
+<div class="row">
+    <div class="col-md-offset-4 col-md-4 text-center">
+        <button type="button" class="btn btn-primary" data-toggle="modal" data-target=".bs-example-modal-sm">뭘 먹을까?</button>
+
+    </div>
+</div>
+
+<!-- Small modal -->
+
+<div class="modal fade bs-example-modal-sm" tabindex="-1" role="dialog" aria-labelledby="mySmallModalLabel" aria-hidden="true">
+  <div class="modal-dialog modal-sm">
+    <div class="modal-content text-center" style="padding: 60px">
+      <p><%= @foods.sample %></p>
+    </div>
+  </div>
+</div>
